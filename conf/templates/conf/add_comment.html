@@ -1,0 +1,9 @@
+{% extends 'conf/base.html' %}
+{% block content %}
+	<h2>Leave comments</h2>
+	<form method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="Send" />
+	</form>
+{% endblock %}

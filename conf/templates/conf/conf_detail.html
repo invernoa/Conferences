@@ -1,0 +1,28 @@
+{% extends 'conf/base.html' %}
+{%  load bootstrap3%}
+{% block content %}
+    <div class="conf">
+    <a class="btn btn-default" href="{% url 'conf_edit' pk=conf.pk %}"> Edit  <span class="glyphicon glyphicon-pencil"></span></a>
+        <h3><a href = "{% url 'conf_detail' pk=conf.pk %}">{{ conf.title }}</a></h3>
+        <p><strong>Location: </strong>{{ conf.place}}</p>
+        <p><strong>Date: </strong>{{ conf.period }}</p>
+        <h4>Tracks: </h4>
+        <p> {{ conf.tracks}}</p>
+        <h4>Description</h4>
+        <p> {{ conf.description }}</p>
+        <h4>Terms of participating: </h4>
+        <p> {{ conf.terms }}</p>
+    </div>
+    <hr>
+<div class = "comments">
+    <h3>Comments</h3>
+    {% for comm in comments %}
+        <strong>{{ comm.user }}</strong>
+            ({{ comm.created }})</p>
+            <p>{{ comm.text }}</p>
+        {% empty %}
+    {% endfor %}
+
+ <h5><a href = "{% url 'add_comment' pk=conf.pk %}">Add a comment</a></h5>
+</div>
+{% endblock %}

@@ -1,0 +1,65 @@
+/*.container-fluid {*/
+/*    background-color: #273149;*/
+/*    margin-top: 0;*/
+/*    padding: 20px 20px 20px 40px;*/
+/*}*/
+.navbar{
+    background-color: #273149;
+    margin-top: 0;
+    padding: 20px 20px 25px 100px;
+    border-radius:  0 0 60px 60px ;
+}
+
+.navbar h1, .navbar h1 a, .navbar h1 a:visited, .navbar h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bitter', serif;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.conf-form, .post-form {
+    width: 300px;
+    height: 50px;
+}
+.post-form {
+    width: 300px;
+    height: 50px;
+}
+.form-control{
+    height: 45px;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.conf {
+    margin-bottom: 70px;
+}
+
+.conf h1 a, .post h1 a:visited {
+    color: #000000;
+}
+.comments{
+    margin-bottom: 70px
+}

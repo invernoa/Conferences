@@ -1,0 +1,40 @@
+{% load staticfiles %}
+{% load bootstrap3 %}
+<link rel="stylesheet" href="{% static 'css/conf.css' %}"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conferences</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/conf.css' %}"/>
+</head>
+<body>
+<nav class="navbar navbar">
+    <class = "container-fluid">
+<div class="navbar-header">
+    <h1><a class="navbar-brand" href="/">Scieconf</a></h1>
+    </div>
+<ul class="nav navbar-nav navbar-right">
+    {% if user.is_authenticated %}
+        <li><a href="{% url 'logout' %}" ><span class="glyphicon glyphicon-log-in"></span> Logout </a></li>
+    {% else %}
+        <li><a href="accounts/login""><span class="glyphicon glyphicon-user"></span> Log in</a></li>
+        <li><a href="accounts/signup""><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    {% endif %}
+    </ul>
+</nav>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{% extends 'conf/base.html' %}
+
+{% block content %}
+    {% for conf in confs %}
+        <div class="conf">
+            <h3><a href = "{% url 'conf_detail' pk=conf.pk %}">{{ conf.title }}</a></h3>
+            <p>Location: {{ conf.place}}</p>
+            <p>Date: {{ conf.period }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
