@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ca1cc2-0e89-4562-96f6-d6857e82b261" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Conferences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled3/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled3/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled3/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled3/wsgi.py" afterDir="false" />
@@ -191,6 +186,11 @@
           <expand>
             <path>
               <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
               <item name="untitled3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -408,12 +408,12 @@
       <workItem from="1555274790694" duration="8860000" />
       <workItem from="1555534168738" duration="41611000" />
       <workItem from="1555948224084" duration="14149000" />
-      <workItem from="1556479971213" duration="249000" />
+      <workItem from="1556479971213" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64869000" />
+    <option name="totallyTimeSpent" value="65120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,10 +428,10 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.23055163" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.23055163" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32956153" />
